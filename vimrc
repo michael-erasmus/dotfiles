@@ -5,10 +5,8 @@ set hidden
 "remap ; to :
 nnoremap ; :
 
-" Use pathogen to easily modify the runtime path to include all
-" plugins under the ~/.vim/bundle directory
-"call pathogen#helptags()
-"call pathogen#runtime_append_all_bundles()
+"Setup pathogen
+call pathogen#infect()
 
 set bs=2 "set backspace to be able to delete previous characters
 set number "Enable line numbering, taking up 6 spaces
@@ -21,7 +19,7 @@ set smartindent
 set autoindent
 set copyindent    " copy the previous indentation on autoindenting
 set cindent
-set tabstop=2 "set tab character to 4 characters
+set tabstop=2 "set tab character to 2 characters
 set expandtab "turn tabs into whitespace
 set shiftwidth=2 "indent width for autoindent
 filetype indent on "indent depends on filetype
