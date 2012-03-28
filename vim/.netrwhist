@@ -1,9 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/michael/dotfiles'
-let g:netrw_dirhist_2='/home/michael/dotfiles/vim'
-let g:netrw_dirhist_3='/mnt/hgfs/source/22seven/ops'
-let g:netrw_dirhist_4='/mnt/hgfs/source/22seven/ops/app'
-let g:netrw_dirhist_5='/mnt/hgfs/source/22seven/ops/app/assets'
-let g:netrw_dirhist_6='/mnt/hgfs/source/22seven/ops/app'
-let g:netrw_dirhist_7='/mnt/hgfs/source/22seven/ops/app/controllers'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/michael/Dropbox/Freelance/Tweetaways/tweetaways'
+let g:netrw_dirhist_2='/home/michael/Dropbox/Freelance/Tweetaways/tweetaways/config/environments'
