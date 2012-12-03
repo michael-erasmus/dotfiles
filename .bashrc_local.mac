@@ -1,0 +1,13 @@
+http_proxy=http://192.168.3.6:3128
+export http_proxy
+export PS1="\w$ "
+alias vi="mvim -v"
+alias vim="mvim"
+alias ios='cd ~/source/22Seven/ios'
+alias api='cd ~/source/22Seven/client_api'
+alias dev='cd ~/dev'
+alias pld='git pull origin develop'
+alias psd='git push origin develop'
+alias r='env COCOAPODS_NO_UPDATE=1 rake tts && env COCOAPODS_NO_UPDATE=1 rake'
+alias rr='r retina=true'
+alias rd='r device'
