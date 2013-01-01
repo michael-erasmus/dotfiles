@@ -243,8 +243,14 @@ map <leader>c :w\|:!script/features<cr>
 map <leader>W :w\|:!script/features --profile wip<cr>
 
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" WILDIGNORE 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" This is mostly for the benefit of Cmd-T, specify mostly bundled package
+" files to ignore so that they dont mess with listing and make it harder to
+" find the files I actually want to open.
 
-"""OLD file
+set wildignore+=node_modules
 
 
 
