@@ -32,6 +32,10 @@
     dh1 = diff HEAD~1
     pop = stash pop
     drop = stash drop
+    dontcommit = update-index --assume-unchanged
+    docommit = update-index --no-assume-unchanged
+    dontci = update-index --assume-unchanged
+    doci = update-index --no-assume-unchanged
 
 [merge]
     tool = vimdiff
