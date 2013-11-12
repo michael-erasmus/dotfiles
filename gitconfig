@@ -12,6 +12,7 @@
     amend = commit --amend
     aa = add --all
     ai = add -i
+    ap = add -p
     head = !git l -1
     h = !git head
     hp = "!source ~/.githelpers && show_git_head"
