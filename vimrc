@@ -95,8 +95,11 @@ imap <c-c> <esc>
 " Clear the search buffer when hitting return
 :nnoremap <CR> :nohlsearch<cr>
 nnoremap <leader><leader> <c-^>
+" Leader-s for saving
+nnoremap <leader>s <Esc>:w<CR>
 
-
+" Leader-q for close 
+nnoremap <leader>q <Esc>:q<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MULTIPURPOSE TAB KEY
 " Indent if we're at the beginning of a line. Else, do completion.
